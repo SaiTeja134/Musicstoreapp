@@ -1,0 +1,20 @@
+@keyframes ping {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1.5);
+      opacity: 0;
+    }
+  }
+  
+  .animated-ping {
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    height: 4rem; /* Corresponds to w-16 */
+    width: 4rem; /* Corresponds to h-16 */
+    margin: 2rem; /* Corresponds to m-8 */
+    border-radius: 9999px; /* Corresponds to rounded-full */
+    background-color: #2563eb; /* Corresponds to bg-sky-600 */
+  }
+  
